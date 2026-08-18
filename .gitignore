@@ -1,0 +1,12 @@
+# Dados gerados — execute os notebooks para regenerar
+data/raw/
+data/processed/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env
