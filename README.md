@@ -41,6 +41,12 @@ O produto esperado é uma tabela ordenada por *score* de anomalia que permita a 
 
 ---
 
+## Diagrama do Projeto 
+
+<img width="605" height="726" alt="image" src="https://github.com/user-attachments/assets/78e11c9b-ec30-45ed-a771-ad348c867f2b" />
+
+---
+
 ## Pipeline de Dados
 
 01_extracao_uasg.ipynb
