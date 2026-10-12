@@ -43,7 +43,8 @@ O produto esperado é uma tabela ordenada por *score* de anomalia que permita a 
 
 ## Diagrama do Projeto 
 
-<img width="605" height="726" alt="image" src="https://github.com/user-attachments/assets/78e11c9b-ec30-45ed-a771-ad348c867f2b" />
+<img width="450" height="735" alt="image" src="https://github.com/user-attachments/assets/381c2ad0-478d-4579-a535-293eb0983253" />
+
 
 ---
 
