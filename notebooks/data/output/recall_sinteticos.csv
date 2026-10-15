@@ -1,0 +1,6 @@
+Perfil,N_Sintéticos,Recall_IF,Recall_LOF,Recall_OCSVM,Recall_Médio
+P1_Superfaturamento,500,0.0,0.0,0.046,0.015333333333333332
+P2_Empresa_Fantasma,500,0.0,0.0,0.0,0.0
+P3_Concentracao_Eleitoral,500,0.0,0.0,0.0,0.0
+P4_Fornecedor_Irregular,500,0.0,0.0,0.0,0.0
+P5_Combinado,500,0.0,0.0,0.056,0.018666666666666668

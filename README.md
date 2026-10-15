@@ -1,4 +1,4 @@
-# Aprendizado de Máquina Aplicado à Detecção de Propostas Anômalas em Processos de Licitações no Setor Público Brasileiro
+# Aprendizado de Máquina Aplicado à Detecção de Propostas Anômalas em Processos de Licitações no Setor Público Pernambucano
 
 **Autora:** Letícia Gomes da Silva  
 **Orientadora:** Laura Pacífico  
