@@ -1,6 +1,6 @@
 {
   "rodada_id": "1196cfba40",
-  "executado_em": "2026-11-17T18:38:30",
+  "executado_em": "2026-11-17T18:50:27",
   "versoes": {
     "python": "3.9.6",
     "plataforma": "macOS-27.0.1-arm64-arm-64bit",
@@ -10,7 +10,7 @@
     "scikit-learn": "1.6.1"
   },
   "codigo": {
-    "commit_base": "f6e54de",
+    "commit_base": "f82d0d0",
     "alteracoes_nao_commitadas": true
   },
   "dados": {
@@ -70,7 +70,9 @@
     "lof": 755,
     "ocsvm": 816,
     "alto_risco_2_ou_mais_votos": 306,
-    "tres_votos": 0
+    "tres_votos": 0,
+    "ocsvm_vetores_de_suporte": 867,
+    "ocsvm_convergiu": true
   },
   "saidas": {
     "data/output/ranking_parcial.csv": {
