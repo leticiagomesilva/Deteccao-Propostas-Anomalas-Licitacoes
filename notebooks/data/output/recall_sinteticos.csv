@@ -1,4 +1,4 @@
 Modelo,Anomalias_detectadas,Recall
-Isolation Forest,610,0.244
-Local Outlier Factor,56,0.0224
-One-Class SVM,165,0.066
+Isolation Forest,632,0.2528
+Local Outlier Factor,16,0.0064
+One-Class SVM,166,0.0664
