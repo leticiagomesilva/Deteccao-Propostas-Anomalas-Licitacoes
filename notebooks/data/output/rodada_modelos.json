@@ -1,0 +1,81 @@
+{
+  "rodada_id": "1196cfba40",
+  "executado_em": "2026-11-17T18:38:30",
+  "versoes": {
+    "python": "3.9.6",
+    "plataforma": "macOS-27.0.1-arm64-arm-64bit",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1"
+  },
+  "codigo": {
+    "commit_base": "f6e54de",
+    "alteracoes_nao_commitadas": true
+  },
+  "dados": {
+    "arquivo": "data/load/dataset_ml_model.csv",
+    "sha256": "8063d35680f0511b0f2a59a63b0510d19d5c2230ccde3c64ddda3d8271d582b7",
+    "linhas": 75471,
+    "variaveis": [
+      "desvio_item_estimado",
+      "n_propostas_item",
+      "fornecedor_unico",
+      "ano",
+      "mes",
+      "trimestre",
+      "dia_semana",
+      "dias_desde_eleicao",
+      "pre_eleitoral_180d",
+      "pos_eleitoral_180d",
+      "fornecedor_fora_pe",
+      "tipo_fornecedor",
+      "idade_empresa_anos",
+      "empresa_nova",
+      "opcao_pelo_mei",
+      "opcao_pelo_simples",
+      "modalidade_Dispensa",
+      "modalidade_Inexigibilidade",
+      "modalidade_Licitacao",
+      "porte",
+      "descricao_situacao_cadastral"
+    ],
+    "vetores_unicos": 56515
+  },
+  "parametros": {
+    "random_state": 42,
+    "contamination": 0.01,
+    "isolation_forest": {
+      "n_estimators": 100,
+      "max_samples": 256,
+      "escala": "nenhuma"
+    },
+    "lof": {
+      "n_neighbors": 50,
+      "escala": "StandardScaler (todas as colunas)",
+      "duplicatas": "ajustado só nos vetores únicos; limiar de 1% sobre as propostas",
+      "algorithm": "auto",
+      "algoritmo_efetivo": "brute"
+    },
+    "ocsvm": {
+      "kernel": "rbf",
+      "nu": 0.01,
+      "gamma": "scale",
+      "escala": "StandardScaler (todas as colunas)"
+    },
+    "score_combinado": "MinMaxScaler em cada escore (IF e OCSVM com sinal invertido), média simples"
+  },
+  "resultados": {
+    "isolation_forest": 743,
+    "lof": 755,
+    "ocsvm": 816,
+    "alto_risco_2_ou_mais_votos": 306,
+    "tres_votos": 0
+  },
+  "saidas": {
+    "data/output/ranking_parcial.csv": {
+      "sha256": "e82117cc9848ac887c7515fa11f45d9f3d894cca57e12445cc8775623973f096",
+      "linhas": 75471
+    }
+  }
+}

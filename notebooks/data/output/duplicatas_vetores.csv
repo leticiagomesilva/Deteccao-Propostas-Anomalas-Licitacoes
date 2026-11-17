@@ -1,0 +1,11 @@
+,valor
+Propostas (linhas),75471.0
+Vetores distintos,56515.0
+Propostas em vetores com 2 ou mais cópias,23213.0
+% das propostas,30.8
+Propostas redundantes (cópias além da primeira),18956.0
+Vetores repetidos (2 ou mais cópias),4257.0
+Cópias por vetor repetido — mediana,2.0
+Cópias por vetor repetido — máximo,500.0
+Vetores com mais de 50 cópias (> n_neighbors),40.0
+Propostas nesses vetores,5766.0
