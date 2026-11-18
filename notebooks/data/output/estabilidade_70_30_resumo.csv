@@ -1,0 +1,8 @@
+modelo,parte,Fração sinalizada,Sinalizadas (média),Sinalizadas na referência,Jaccard,Recall da referência,Spearman dos escores
+IF,Dentro da amostra (70%),"0,94% ± 0,04",499,523,"0,59 ± 0,11","0,72 ± 0,07","0,976 ± 0,003"
+IF,Fora da amostra (30%),"0,91% ± 0,07",205,220,"0,59 ± 0,07","0,71 ± 0,05","0,976 ± 0,003"
+LOF,Dentro da amostra (70%),"1,00% ± 0,00",529,533,"0,72 ± 0,05","0,83 ± 0,05","0,830 ± 0,014"
+LOF,Fora da amostra (30%),"0,95% ± 0,11",215,222,"0,72 ± 0,10","0,82 ± 0,08","0,833 ± 0,015"
+OCSVM,Dentro da amostra (70%),"1,62% ± 0,36",856,571,"0,43 ± 0,06","0,75 ± 0,06","0,995 ± 0,001"
+OCSVM,Fora da amostra (30%),"1,82% ± 0,35",411,245,"0,46 ± 0,07","0,83 ± 0,05","0,995 ± 0,001"
+Alto risco (>= 2 votos),Fora da amostra (30%),"0,38% ± 0,10",87,92,"0,42 ± 0,09","0,58 ± 0,12",
