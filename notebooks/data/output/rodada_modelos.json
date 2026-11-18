@@ -1,6 +1,6 @@
 {
-  "rodada_id": "1196cfba40",
-  "executado_em": "2026-11-17T18:50:27",
+  "rodada_id": "1c2af6e77a",
+  "executado_em": "2026-11-18T16:22:55",
   "versoes": {
     "python": "3.9.6",
     "plataforma": "macOS-27.0.1-arm64-arm-64bit",
@@ -10,7 +10,7 @@
     "scikit-learn": "1.6.1"
   },
   "codigo": {
-    "commit_base": "f82d0d0",
+    "commit_base": "9c92c7b",
     "alteracoes_nao_commitadas": true
   },
   "dados": {
@@ -63,7 +63,7 @@
       "gamma": "scale",
       "escala": "StandardScaler (todas as colunas)"
     },
-    "score_combinado": "MinMaxScaler em cada escore (IF e OCSVM com sinal invertido), média simples"
+    "score_combinado": "média simples de três escores orientados (maior = mais anômalo): min-max de -decision_function do IF, min-max de ln(LOF), com LOF = -negative_outlier_factor_, e min-max de -decision_function do OCSVM"
   },
   "resultados": {
     "isolation_forest": 743,
@@ -76,7 +76,7 @@
   },
   "saidas": {
     "data/output/ranking_parcial.csv": {
-      "sha256": "e82117cc9848ac887c7515fa11f45d9f3d894cca57e12445cc8775623973f096",
+      "sha256": "2f0c234757622afa36855c83ccfbbf15dd426715ce72f45d2877b39e0f64cc3a",
       "linhas": 75471
     }
   }
