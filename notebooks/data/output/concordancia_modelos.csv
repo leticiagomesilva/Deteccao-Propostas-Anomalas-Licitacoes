@@ -1,0 +1,4 @@
+Par,Sinalizadas IF,Sinalizadas LOF,Interseção,Esperada ao acaso,Razão obs./esp.,Jaccard,Interseção do top-755 por escore,Spearman (todas as propostas),Interseção do top-5% (3774) por escore,Esperada ao acaso no top-5%,Sinalizadas OCSVM
+IF × LOF,743.0,755.0,0,7.43,0.0,0.0,0,0.14,277,188.7,
+IF × OCSVM,743.0,,288,8.03,35.9,0.227,231,0.572,1669,188.7,816.0
+LOF × OCSVM,,755.0,18,8.16,2.2,0.012,18,0.156,898,188.7,816.0

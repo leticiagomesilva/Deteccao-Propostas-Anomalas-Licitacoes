@@ -1,6 +1,6 @@
 {
   "rodada_id": "1c2af6e77a",
-  "executado_em": "2026-11-18T16:22:55",
+  "executado_em": "2026-11-18T16:50:36",
   "versoes": {
     "python": "3.9.6",
     "plataforma": "macOS-27.0.1-arm64-arm-64bit",
@@ -10,7 +10,7 @@
     "scikit-learn": "1.6.1"
   },
   "codigo": {
-    "commit_base": "9c92c7b",
+    "commit_base": "ad9d1ad",
     "alteracoes_nao_commitadas": true
   },
   "dados": {
