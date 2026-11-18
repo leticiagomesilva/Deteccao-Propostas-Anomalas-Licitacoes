@@ -1,6 +1,6 @@
 {
-  "rodada_id": "b73466651a",
-  "executado_em": "2026-11-18T18:56:39",
+  "rodada_id": "e2512d5949",
+  "executado_em": "2026-11-18T19:28:56",
   "versoes": {
     "python": "3.9.6",
     "plataforma": "macOS-27.0.1-arm64-arm-64bit",
@@ -10,12 +10,12 @@
     "scikit-learn": "1.6.1"
   },
   "codigo": {
-    "commit_base": "44747be",
+    "commit_base": "ef694e6",
     "alteracoes_nao_commitadas": true
   },
   "dados": {
     "arquivo": "data/load/dataset_ml_model.csv",
-    "sha256": "1af4980669b185ca72c2857926ecc67d4cf51f97bb352af18e3060fe8466f091",
+    "sha256": "cbb8d86c4b36f5ad6109ccb30244d0c74f290bb6b09c9ee9fa95d03df8007310",
     "linhas": 74755,
     "variaveis": [
       "desvio_item_estimado",
@@ -31,6 +31,7 @@
       "fornecedor_fora_pe",
       "tipo_fornecedor",
       "idade_empresa_anos",
+      "idade_imputada",
       "empresa_nova",
       "opcao_pelo_mei",
       "opcao_pelo_simples",
@@ -66,17 +67,17 @@
     "score_combinado": "média simples de três escores orientados (maior = mais anômalo): min-max de -decision_function do IF, min-max de ln(LOF), com LOF = -negative_outlier_factor_, e min-max de -decision_function do OCSVM"
   },
   "resultados": {
-    "isolation_forest": 748,
-    "lof": 748,
-    "ocsvm": 1384,
-    "alto_risco_2_ou_mais_votos": 322,
+    "isolation_forest": 747,
+    "lof": 750,
+    "ocsvm": 765,
+    "alto_risco_2_ou_mais_votos": 253,
     "tres_votos": 0,
-    "ocsvm_vetores_de_suporte": 854,
+    "ocsvm_vetores_de_suporte": 852,
     "ocsvm_convergiu": true
   },
   "saidas": {
     "data/output/ranking_parcial.csv": {
-      "sha256": "23a829367285f3bcb12fbd0e50613443c4a99d5d358f8bc81914e56dffcd4d7f",
+      "sha256": "26c61f100237669d3fd413af79403c2b20cd95eeda6df90888d202b3f691ccda",
       "linhas": 74755
     }
   }

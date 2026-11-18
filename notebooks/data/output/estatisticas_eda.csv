@@ -1,0 +1,72 @@
+metrica,valor
+desvio: mediana,-0.1666666666666666
+desvio: média,-0.23008614855529386
+desvio: percentil 95,0.0
+desvio: percentil 99,0.0
+desvio: propostas com desvio exatamente 0,18792
+desvio: % com desvio exatamente 0,25.138117851648715
+desvio: imputados com 0 (valor estimado zero),866
+desvio: propostas com desvio positivo,187
+desvio: % com desvio positivo,0.25015049160591263
+desvio: mínimo,-0.9999999995
+propostas em 2023,20802
+% em 2023,27.82690121062136
+propostas em 2024,53953
+% em 2024,72.17309878937864
+propostas em janeiro de 2023,165
+propostas em dezembro de 2023,3482
+2024: trimestre 1,7983
+2024: trimestre 2,15300
+2024: trimestre 3,15842
+2024: trimestre 4,14828
+mediana mensal do desvio: mínimo (mais negativo),-0.2727272727272727
+  mês do mínimo,1
+mediana mensal do desvio: máximo (menos negativo),-0.0334128878281624
+  mês do máximo,4
+média mensal abaixo da mediana em todos os meses,True
+% pessoa jurídica,91.8988696408267
+pessoas físicas (propostas),6056
+% pessoa física,8.101130359173304
+% empresas com menos de 1 ano,6.807571399906361
+% MEI,0.745100662163066
+% optantes pelo Simples,36.18754598354625
+% microempresas (porte = 1),28.201458096448402
+idade da empresa: mediana (com imputados),8.670773442847365
+idade da empresa: média (com imputados),11.437015070585817
+idade imputada (indicador): propostas,18001
+idade imputada (indicador): %,24.079994649187345
+idade imputada: pessoas físicas,6011
+% sem cadastro (porte = 0),24.079994649187345
+com cadastro: n,56754
+com cadastro: % MEI,0.9814286217711526
+com cadastro: % Simples,47.66536279381189
+com cadastro: % microempresas,37.1462804383832
+com cadastro: idade média,12.314400198346325
+com cadastro: idade mediana,8.68993839835729
+% sem informação de MEI/Simples (antes da imputação),38.84556216975453
+com informação de MEI/Simples: n,45716
+com informação: % MEI,1.2183918103071134
+com informação: % Simples,59.17403097383848
+pessoas físicas com idade original (data de abertura),45
+% fornecedores fora de PE,62.823891378503106
+com cadastro: % fora de PE,51.03252634175565
+desvio mediano: fornecedor de PE,-0.1927668393782383
+desvio mediano: fornecedor de fora,-0.150151051278867
+"efeito (bisserial por postos, PE × fora)",-0.05207513217576076
+p-valor (Mann-Whitney),3.00760931005597e-33
+com cadastro: desvio mediano de PE,-0.1927668393782383
+com cadastro: desvio mediano de fora,-0.239766081871345
+com cadastro: efeito (PE × fora),0.09023406450215643
+pré: propostas,30091
+pré: % da base,40.25282589793325
+pré: % empresas novas,6.560101026885115
+pós: propostas,14380
+pós: % da base,19.23617149354558
+pós: % empresas novas,2.9833101529902644
+fora da janela: propostas,30284
+fora da janela: % da base,40.51100260852117
+fora da janela: % empresas novas,8.869369964337604
+janela pré: primeira data,2024-04-09
+janela pré: última data,2024-10-04
+janela pós: primeira data,2024-10-07
+janela pós: última data,2024-12-30

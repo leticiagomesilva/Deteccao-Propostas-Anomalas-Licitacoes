@@ -8,7 +8,7 @@ LOF,contamination,0.01,"Mesma proporção do IF, por consistência; aplicada com
 LOF,escore,ln(LOF) no escore combinado,"LOF = -negative_outlier_factor_ (razão de densidades, cauda extrema); log antes do min-max (seção 5).",
 One-Class SVM,kernel,rbf,Captura relações não lineares entre as variáveis.,"StandardScaler em todas as colunas (sem padronização, variáveis de maior escala dominam o kernel)"
 One-Class SVM,nu,0.01,Limite superior da fração de pontos fora da fronteira e inferior da fração de vetores de suporte; não fixa a proporção sinalizada (seção 2.6).,
-One-Class SVM,gamma,scale (= 0.0476),"1 / (n_variáveis × variância dos dados), calculado a partir da própria base.",
+One-Class SVM,gamma,scale (= 0.0455),"1 / (n_variáveis × variância dos dados), calculado a partir da própria base.",
 One-Class SVM,tol,0.001,Padrão do scikit-learn; apertar a tolerância não elimina o efeito das duplicatas na fronteira (seção 2.6).,
 Escore combinado,normalização,min-max; ln(LOF),Média simples de três escores orientados (maior = mais anômalo); ver equação na seção 5 e comparação na 5.1.,
 Votos,alto risco,>= 2 votos,Proposta sinalizada por pelo menos dois dos três modelos; sensibilidade ao limiar na seção 8.,

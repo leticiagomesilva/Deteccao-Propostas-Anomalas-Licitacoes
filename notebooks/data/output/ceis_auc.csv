@@ -1,0 +1,16 @@
+Unidade,Escore,Desfecho,AUC,IC 95% inf.,IC 95% sup.
+Proposta (só PJ),Escore combinado,Qualquer sanção,0.45757054139328096,0.4167086843913313,0.49063878676805517
+Proposta (só PJ),Escore combinado,Posterior,0.45825248678529645,0.42286729502076087,0.5002479695581653
+Proposta (só PJ),Escore combinado,Posterior em até 12 meses,0.46522573080293816,0.4104895117241188,0.5305463817325607
+Proposta (só PJ),IF,Qualquer sanção,0.44973677383495386,,
+Proposta (só PJ),IF,Posterior,0.45010920821421463,,
+Proposta (só PJ),IF,Posterior em até 12 meses,0.41538659972468955,,
+Proposta (só PJ),LOF (ln),Qualquer sanção,0.48218728387600684,,
+Proposta (só PJ),LOF (ln),Posterior,0.4831669274285706,,
+Proposta (só PJ),LOF (ln),Posterior em até 12 meses,0.494593817952771,,
+Proposta (só PJ),OCSVM,Qualquer sanção,0.49792364722001,,
+Proposta (só PJ),OCSVM,Posterior,0.4989464346923005,,
+Proposta (só PJ),OCSVM,Posterior em até 12 meses,0.5375788268860948,,
+"Fornecedor (só PJ, maior escore)",Escore combinado,Qualquer sanção,0.45258254960898137,,
+"Fornecedor (só PJ, maior escore)",Escore combinado,Posterior,0.4525221650249403,,
+"Fornecedor (só PJ, maior escore)",Escore combinado,Posterior em até 12 meses,0.4991618454235277,,
