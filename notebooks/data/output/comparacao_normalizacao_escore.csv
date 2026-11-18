@@ -1,5 +1,5 @@
 Normalização,Contribuição IF,Contribuição LOF,Contribuição OCSVM,Ordem no alto risco: ρ IF,Ordem no alto risco: ρ LOF,Ordem no alto risco: ρ OCSVM,ρ da ordem vs adotado (alto risco),Top-20 em comum com o adotado,Top-50 em comum com o adotado
-Min-max (versão anterior),0.7811,0.0011,0.2178,0.8053,0.282,0.5543,0.9251,17,43
-log(LOF) + min-max (adotado),0.7512,0.0373,0.2115,0.7306,0.4924,0.567,1.0,20,50
-Percentil (posto),0.3615,0.2737,0.3648,0.4545,0.8192,0.1166,0.5906,0,8
-Kriegel et al. (2011),0.5981,0.0485,0.3534,0.646,0.0069,0.8327,0.7626,6,33
+Min-max (versão anterior),0.778,0.0011,0.221,0.7957,0.0288,0.3402,0.9173,16,45
+log(LOF) + min-max (adotado),0.7479,0.0374,0.2147,0.7214,0.3042,0.3234,1.0,20,50
+Percentil (posto),0.3623,0.2691,0.3687,0.2621,0.7941,-0.1932,0.403,0,0
+Kriegel et al. (2011),0.569,0.0469,0.3841,0.3389,-0.0245,0.8213,0.4933,6,33

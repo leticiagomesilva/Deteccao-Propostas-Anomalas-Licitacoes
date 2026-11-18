@@ -1,9 +1,9 @@
 LOF,variação,sinalizadas,Jaccard vs ordem original,idêntico
-todas as linhas,ordem original,755,1.0,True
-todas as linhas,ordem embaralhada (sem. 1),746,0.985,False
-todas as linhas,ordem embaralhada (sem. 2),746,0.985,False
-todas as linhas,algorithm='kd_tree',750,0.98,False
-vetores únicos,ordem original,755,1.0,True
-vetores únicos,ordem embaralhada (sem. 1),755,1.0,True
-vetores únicos,ordem embaralhada (sem. 2),755,1.0,True
-vetores únicos,algorithm='kd_tree',755,1.0,True
+todas as linhas,ordem original,748,1.0,True
+todas as linhas,ordem embaralhada (sem. 1),748,1.0,True
+todas as linhas,ordem embaralhada (sem. 2),748,0.997,False
+todas as linhas,algorithm='kd_tree',748,0.997,False
+vetores únicos,ordem original,748,1.0,True
+vetores únicos,ordem embaralhada (sem. 1),748,1.0,True
+vetores únicos,ordem embaralhada (sem. 2),748,1.0,True
+vetores únicos,algorithm='kd_tree',748,1.0,True

@@ -1,16 +1,16 @@
 ,valor
-Propostas (N) / vetores distintos,75471 / 56515
-nu × N (limite teórico de pontos fora da fronteira),754.7
-Vetores de suporte (esperado >= nu × N),867
+Propostas (N) / vetores distintos,74755 / 56499
+nu × N (limite teórico de pontos fora da fronteira),747.6
+Vetores de suporte (esperado >= nu × N),854
 Vetores de suporte no limite superior (esperado <= nu × N),659
-Convergência (fit_status_: 0 = convergiu) / iterações,0 / 1193
+Convergência (fit_status_: 0 = convergiu) / iterações,0 / 1173
 Tolerância do solucionador (tol),0.001
-Propostas com função de decisão < 0 (as sinalizadas),816 (1.08%)
-"   dessas, a menos de tol da fronteira",307 (38% das sinalizadas)
-   vetores distintos entre elas,90
-   cópias por vetor (mediana / máximo),22 / 77
-Sinalizadas com o limiar f < -tol,509 (0.67%)
-Sinalizadas com tol = 1e-5,933 (1.24%)
-Sinalizadas embaralhando as linhas (sementes 1 e 2),897 (1.19%) e 928 (1.23%)
-Ajustado nos vetores únicos: vetores com f < 0,576 (1.02% dos vetores)
-Ajustado nos vetores únicos: propostas com f < 0,2304 (3.05%)
+Propostas com função de decisão < 0 (as sinalizadas),1384 (1.85%)
+"   dessas, a menos de tol da fronteira",852 (62% das sinalizadas)
+   vetores distintos entre elas,100
+   cópias por vetor (mediana / máximo),484 / 484
+Sinalizadas com o limiar f < -tol,532 (0.71%)
+Sinalizadas com tol = 1e-5,791 (1.06%)
+Sinalizadas embaralhando as linhas (sementes 1 e 2),771 (1.03%) e 827 (1.11%)
+Ajustado nos vetores únicos: vetores com f < 0,573 (1.01% dos vetores)
+Ajustado nos vetores únicos: propostas com f < 0,1336 (1.79%)

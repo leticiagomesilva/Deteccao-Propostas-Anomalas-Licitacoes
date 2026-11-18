@@ -1,4 +1,4 @@
 Tratamento,Sinalizadas,Jaccard vs adotado,Spearman dos escores vs adotado,% sem cadastro,Também no IF,Também no OCSVM,% vizinhos c/ mesma modalidade_Dispensa,% vizinhos c/ mesma fornecedor_fora_pe,% vizinhos c/ mesma porte
-Sem padronização,755,0.2327,0.3206,33.1126,0,2,86.134,80.16,74.835
-StandardScaler (adotado),755,1.0,1.0,23.4437,0,18,99.786,98.671,94.093
-RobustScaler,755,0.6909,0.7394,28.8742,0,13,99.498,97.722,97.943
+Sem padronização,748,0.2353,0.3134,32.754,0,2,87.221,79.773,75.189
+StandardScaler (adotado),748,1.0,1.0,23.1283,1,18,99.807,98.609,93.531
+RobustScaler,748,0.6885,0.7499,28.877,0,12,99.502,97.531,97.653

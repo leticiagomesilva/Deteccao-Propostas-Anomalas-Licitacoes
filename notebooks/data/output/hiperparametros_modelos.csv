@@ -3,7 +3,7 @@ Isolation Forest,n_estimators,100,Equilíbrio entre estabilidade e custo computa
 Isolation Forest,max_samples,256,Padrão do scikit-learn; eficiente em bases grandes.,
 Isolation Forest,contamination,0.01,"1% esperado de anomalias, definição conservadora (alinhada a Araújo et al., 2024). Só define o limiar de corte; sensibilidade na seção 8.",
 Isolation Forest,random_state,42,Reprodutibilidade dos resultados.,
-LOF,n_neighbors,50,Valores menores geravam avisos de duplicatas. Não elimina o problema (40 vetores têm mais de 50 cópias): por isso o LOF é ajustado só nos vetores únicos (seção 2.5). Sensibilidade a n_neighbors não avaliada.,StandardScaler em todas as colunas (seção 2.4)
+LOF,n_neighbors,50,Valores menores geravam avisos de duplicatas. Não elimina o problema (37 vetores têm mais de 50 cópias): por isso o LOF é ajustado só nos vetores únicos (seção 2.5). Sensibilidade a n_neighbors não avaliada.,StandardScaler em todas as colunas (seção 2.4)
 LOF,contamination,0.01,"Mesma proporção do IF, por consistência; aplicada como limiar sobre as propostas (não sobre os vetores únicos).",
 LOF,escore,ln(LOF) no escore combinado,"LOF = -negative_outlier_factor_ (razão de densidades, cauda extrema); log antes do min-max (seção 5).",
 One-Class SVM,kernel,rbf,Captura relações não lineares entre as variáveis.,"StandardScaler em todas as colunas (sem padronização, variáveis de maior escala dominam o kernel)"
